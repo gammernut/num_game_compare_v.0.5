@@ -7,7 +7,7 @@ import utill
 utill.print_header('Guessing game')
 
 player_name = input('Hello player what is your name? \n')
-print(f'Hello {player_name} welcome to the game \n')
+print(f'Hello {player_name} wellcome to the game \n')
 user_input_main_loop = 'EMPTY'
 while user_input_main_loop != 'x' and user_input_main_loop:
     user_input_main_loop = input('[P]lay game, E[x]it: ')
